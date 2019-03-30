@@ -13,17 +13,17 @@ Try to complete as much as possible.
 
 Render Datatable from test1.json.
 
-- [ ] `columns` can be changed dynamically.
-- [ ] Each item in `rows` is adapted to `columns` structure.
-- [ ] Complete search bar(can search(order, type, question))
-- [ ] Data should be available to add(type, question)
+- [x] `columns` can be changed dynamically.
+- [x] Each item in `rows` is adapted to `columns` structure.
+- [x] Complete search bar(can search(order, type, question))
+- [x] Data should be available to add(type, question)
 
 ### **Test 2**
 
 Implement input, datepicker, and select
 
-- [ ] Get initial data from server
-- [ ] Be able to retrieve new value as user change it.
+- [x] Get initial data from server
+- [x] Be able to retrieve new value as user change it.
 
 >Read the note below for more detailed about select component*
 
@@ -31,18 +31,18 @@ Implement input, datepicker, and select
 
 Render a form with the following requirements, using components have implemented from *test2*
 
-- [ ] Use data from this end point `localhost:3030/structure` as the structure of this form. Keep in mind that this structure can be changed dynamically.
-- [ ] Use data from this end point `localhost:3030/data` as initial data.
-- [ ] Be able to retrieve new value as user change it.
-- [ ] Add validation (for fields those marked 'required' in structure)
+- [x] Use data from this end point `localhost:3030/structure` as the structure of this form. Keep in mind that this structure can be changed dynamically.
+- [x] Use data from this end point `localhost:3030/data` as initial data.
+- [x] Be able to retrieve new value as user change it.
+- [x] Add validation (for fields those marked 'required' in structure)
 
 
 ### **Test 4**
 
 Render a Chart (https://chartkick.com/vue)
 
-- [ ] Use Line chart (Multiple series)
-- [ ] Calculate Average Value, Total value 
+- [x] Use Line chart (Multiple series)
+- [x] Calculate Average Value, Total value 
   ex) Teamwork: 3, Benefit:4, Career:2 ==> Total: 9, Average: 3
 
  
