@@ -5,7 +5,7 @@
 export default {
   name: 'BaseChart',
   props: {
-    data: Object
+    data: Array
   }
 }
 </script>

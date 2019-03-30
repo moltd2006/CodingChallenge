@@ -30,9 +30,7 @@
       <tbody>
 
         <tr class="head" v-for="row in rows" :key="row.index">
-          <td>{{ row.order }}</td>
-          <td>{{ row.type }}</td>
-          <td>{{ row.question }}</td>
+          <td v-for="column in data.columns" :key="column.field">{{ row[column.field] }}</td>
         </tr>
       </tbody>
     </table>
